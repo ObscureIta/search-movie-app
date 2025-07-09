@@ -1,7 +1,24 @@
-.header{
+.header {
   background-color: #fff599;
+  padding: 20px;
+
+  &__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 
   &__logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
     text-decoration: none;
+    font-size: 48px;
+    color: currentColor;
+
+    &-image {
+      width: 40px;
+      height: 40px;
+    }
   }
 }
